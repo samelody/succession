@@ -1,0 +1,5 @@
+apply from: "${packgra.rawUrl}sample.gradle"
+
+dependencies {
+    compile packgra.appcompat
+}
