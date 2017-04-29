@@ -1,1 +1,5 @@
 apply from: "${packgra.rawUrl}library.gradle"
+
+dependencies {
+    compile packgra.support
+}

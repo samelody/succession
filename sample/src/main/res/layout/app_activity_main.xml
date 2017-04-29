@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    >
+    <LinearLayout
+        style="@style/Item"
+        >
+        <TextView
+            android:text="@string/start_float_succession_with_template"
+            style="@style/Label"
+            />
+        <TextView
+            android:id="@+id/text"
+            android:text="@string/succession_template"
+            style="@style/Text"
+            />
+        <Button
+            android:id="@+id/start1"
+            style="@style/Start"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/Item"
+        >
+        <TextView
+            android:text="@string/start_int_succession_with_pattern"
+            style="@style/Label"
+            />
+        <TextView
+            android:id="@+id/text2"
+            android:text="0"
+            style="@style/Text"
+            />
+        <Button
+            android:id="@+id/start2"
+            style="@style/Start"
+            />
+    </LinearLayout>
+</LinearLayout>
